@@ -716,6 +716,9 @@ select {
 .-mr-2 {
   margin-right: -0.5rem;
 }
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -748,9 +751,6 @@ select {
 }
 .-mt-px {
   margin-top: -1px;
-}
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 .block {
   display: block;
@@ -1244,6 +1244,9 @@ select {
 }
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }
 .hover\:border-gray-200:hover {
   --tw-border-opacity: 1;

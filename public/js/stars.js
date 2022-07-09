@@ -11,13 +11,13 @@ Licence: MIT
 //put your custom configuration settings here
 var user_configuration={
 	shape:"circle", //could be "circle" or "square"
-	initial_size:"2px", //initial size of the stars
+	initial_size:"0px", //initial size of the stars
 	final_size:"2px", //final size of the stars after expansion
-	expand_speed:"1s", //how fast the stars get bigger, in milliseconds
+	expand_speed:"0.5s", //how fast the stars get bigger, in milliseconds
 	fade_delay:"10s", //how long until the star fades out
 	fade_duration:"1s", //how long the star fades for
 	colors:["#FFF", "#72f6fc", "#fcf092"], //The variety of colors of the stars. Can be any CSS complient color (eg. HEX, rgba, hsl)
-	frequency:25, //how often a new wave of stars pop-out (in milliseconds. Bigger==longer)
+	frequency:50, //how often a new wave of stars pop-out (in milliseconds. Bigger==longer)
 	density: 1,//how many stars pop out per wave
 	keep_lit: false, //whether the stars disappear after they are created
 	rotation: true, //whether the stars rotate through out their expansion

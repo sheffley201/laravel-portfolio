@@ -16,7 +16,7 @@ var user_configuration={
 	expand_speed:"1s", //how fast the stars get bigger, in milliseconds
 	fade_delay:"10s", //how long until the star fades out
 	fade_duration:"1s", //how long the star fades for
-	colors:["#FFF"], //The variety of colors of the stars. Can be any CSS complient color (eg. HEX, rgba, hsl)
+	colors:["#FFF", "#72f6fc", "#fcf092"], //The variety of colors of the stars. Can be any CSS complient color (eg. HEX, rgba, hsl)
 	frequency:25, //how often a new wave of stars pop-out (in milliseconds. Bigger==longer)
 	density: 1,//how many stars pop out per wave
 	keep_lit: false, //whether the stars disappear after they are created

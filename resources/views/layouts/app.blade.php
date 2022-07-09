@@ -16,8 +16,10 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/stars.js') }}" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
-    <body class="font-sans antialiased bg-black/80">
+    <body class="stars font-sans antialiased bg-black/80">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 
@@ -29,7 +31,7 @@
             </header>
 
             <!-- Page Content -->
-            <main class='bg-zinc-900'>
+            <main class='bg-zinc-900 z-10'>
                 {{ $slot }}
             </main>
         </div>
